@@ -8,11 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		48066880223025F000B6713E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4806687F223025F000B6713E /* AppDelegate.swift */; };
-		48066882223025F000B6713E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48066881223025F000B6713E /* ViewController.swift */; };
 		48066885223025F000B6713E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48066883223025F000B6713E /* Main.storyboard */; };
 		48066887223025F100B6713E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48066886223025F100B6713E /* Assets.xcassets */; };
 		4806688A223025F100B6713E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48066888223025F100B6713E /* LaunchScreen.storyboard */; };
-		48066895223025F200B6713E /* PlasticTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48066894223025F200B6713E /* PlasticTestTests.swift */; };
+		489401BC2230B41800B4D752 /* DisplaySpinningSquareViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489401B82230B41800B4D752 /* DisplaySpinningSquareViewControllerTests.swift */; };
+		489401BD2230B41800B4D752 /* DisplaySpinningSquareInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489401B92230B41800B4D752 /* DisplaySpinningSquareInteractorTests.swift */; };
+		489401BE2230B41800B4D752 /* DisplaySpinningSquareWorkerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489401BA2230B41800B4D752 /* DisplaySpinningSquareWorkerTests.swift */; };
+		489401BF2230B41800B4D752 /* DisplaySpinningSquarePresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489401BB2230B41800B4D752 /* DisplaySpinningSquarePresenterTests.swift */; };
+		48F8C73D22302B4F00687EBF /* DisplaySpinningSquarePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F8C73722302B4F00687EBF /* DisplaySpinningSquarePresenter.swift */; };
+		48F8C73E22302B4F00687EBF /* DisplaySpinningSquareWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F8C73822302B4F00687EBF /* DisplaySpinningSquareWorker.swift */; };
+		48F8C74022302B4F00687EBF /* DisplaySpinningSquareModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F8C73A22302B4F00687EBF /* DisplaySpinningSquareModels.swift */; };
+		48F8C74122302B4F00687EBF /* DisplaySpinningSquareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F8C73B22302B4F00687EBF /* DisplaySpinningSquareViewController.swift */; };
+		48F8C74222302B4F00687EBF /* DisplaySpinningSquareInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F8C73C22302B4F00687EBF /* DisplaySpinningSquareInteractor.swift */; };
+		48F8C7452230593D00687EBF /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F8C7442230593D00687EBF /* NetworkService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,14 +36,22 @@
 /* Begin PBXFileReference section */
 		4806687C223025F000B6713E /* PlasticTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlasticTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4806687F223025F000B6713E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		48066881223025F000B6713E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		48066884223025F000B6713E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		48066886223025F100B6713E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48066889223025F100B6713E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4806688B223025F100B6713E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		48066890223025F100B6713E /* PlasticTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlasticTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		48066894223025F200B6713E /* PlasticTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlasticTestTests.swift; sourceTree = "<group>"; };
 		48066896223025F200B6713E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		489401B82230B41800B4D752 /* DisplaySpinningSquareViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplaySpinningSquareViewControllerTests.swift; sourceTree = "<group>"; };
+		489401B92230B41800B4D752 /* DisplaySpinningSquareInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplaySpinningSquareInteractorTests.swift; sourceTree = "<group>"; };
+		489401BA2230B41800B4D752 /* DisplaySpinningSquareWorkerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplaySpinningSquareWorkerTests.swift; sourceTree = "<group>"; };
+		489401BB2230B41800B4D752 /* DisplaySpinningSquarePresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplaySpinningSquarePresenterTests.swift; sourceTree = "<group>"; };
+		48F8C73722302B4F00687EBF /* DisplaySpinningSquarePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplaySpinningSquarePresenter.swift; sourceTree = "<group>"; };
+		48F8C73822302B4F00687EBF /* DisplaySpinningSquareWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplaySpinningSquareWorker.swift; sourceTree = "<group>"; };
+		48F8C73A22302B4F00687EBF /* DisplaySpinningSquareModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplaySpinningSquareModels.swift; sourceTree = "<group>"; };
+		48F8C73B22302B4F00687EBF /* DisplaySpinningSquareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplaySpinningSquareViewController.swift; sourceTree = "<group>"; };
+		48F8C73C22302B4F00687EBF /* DisplaySpinningSquareInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplaySpinningSquareInteractor.swift; sourceTree = "<group>"; };
+		48F8C7442230593D00687EBF /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +93,8 @@
 		4806687E223025F000B6713E /* PlasticTest */ = {
 			isa = PBXGroup;
 			children = (
+				48F8C735223029F500687EBF /* Scenes */,
 				4806687F223025F000B6713E /* AppDelegate.swift */,
-				48066881223025F000B6713E /* ViewController.swift */,
 				48066883223025F000B6713E /* Main.storyboard */,
 				48066886223025F100B6713E /* Assets.xcassets */,
 				48066888223025F100B6713E /* LaunchScreen.storyboard */,
@@ -90,10 +106,58 @@
 		48066893223025F200B6713E /* PlasticTestTests */ = {
 			isa = PBXGroup;
 			children = (
-				48066894223025F200B6713E /* PlasticTestTests.swift */,
+				489401B62230B3EE00B4D752 /* Scenes */,
 				48066896223025F200B6713E /* Info.plist */,
 			);
 			path = PlasticTestTests;
+			sourceTree = "<group>";
+		};
+		489401B62230B3EE00B4D752 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				489401B72230B3F400B4D752 /* DisplaySpinningSquare */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		489401B72230B3F400B4D752 /* DisplaySpinningSquare */ = {
+			isa = PBXGroup;
+			children = (
+				489401B82230B41800B4D752 /* DisplaySpinningSquareViewControllerTests.swift */,
+				489401B92230B41800B4D752 /* DisplaySpinningSquareInteractorTests.swift */,
+				489401BA2230B41800B4D752 /* DisplaySpinningSquareWorkerTests.swift */,
+				489401BB2230B41800B4D752 /* DisplaySpinningSquarePresenterTests.swift */,
+			);
+			path = DisplaySpinningSquare;
+			sourceTree = "<group>";
+		};
+		48F8C735223029F500687EBF /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				48F8C743223047F900687EBF /* Services */,
+				48F8C73622302B3B00687EBF /* DisplaySpinningSquare */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		48F8C73622302B3B00687EBF /* DisplaySpinningSquare */ = {
+			isa = PBXGroup;
+			children = (
+				48F8C73722302B4F00687EBF /* DisplaySpinningSquarePresenter.swift */,
+				48F8C73822302B4F00687EBF /* DisplaySpinningSquareWorker.swift */,
+				48F8C73A22302B4F00687EBF /* DisplaySpinningSquareModels.swift */,
+				48F8C73B22302B4F00687EBF /* DisplaySpinningSquareViewController.swift */,
+				48F8C73C22302B4F00687EBF /* DisplaySpinningSquareInteractor.swift */,
+			);
+			path = DisplaySpinningSquare;
+			sourceTree = "<group>";
+		};
+		48F8C743223047F900687EBF /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				48F8C7442230593D00687EBF /* NetworkService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,7 +261,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48066882223025F000B6713E /* ViewController.swift in Sources */,
+				48F8C74222302B4F00687EBF /* DisplaySpinningSquareInteractor.swift in Sources */,
+				48F8C73D22302B4F00687EBF /* DisplaySpinningSquarePresenter.swift in Sources */,
+				48F8C7452230593D00687EBF /* NetworkService.swift in Sources */,
+				48F8C73E22302B4F00687EBF /* DisplaySpinningSquareWorker.swift in Sources */,
+				48F8C74122302B4F00687EBF /* DisplaySpinningSquareViewController.swift in Sources */,
+				48F8C74022302B4F00687EBF /* DisplaySpinningSquareModels.swift in Sources */,
 				48066880223025F000B6713E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -206,7 +275,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48066895223025F200B6713E /* PlasticTestTests.swift in Sources */,
+				489401BF2230B41800B4D752 /* DisplaySpinningSquarePresenterTests.swift in Sources */,
+				489401BD2230B41800B4D752 /* DisplaySpinningSquareInteractorTests.swift in Sources */,
+				489401BE2230B41800B4D752 /* DisplaySpinningSquareWorkerTests.swift in Sources */,
+				489401BC2230B41800B4D752 /* DisplaySpinningSquareViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
