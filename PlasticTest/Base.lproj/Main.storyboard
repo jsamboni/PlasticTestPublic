@@ -37,7 +37,7 @@
                                             <constraint firstAttribute="width" constant="100" id="iRf-69-NVl"/>
                                         </constraints>
                                     </view>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hns-jq-VRD">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hns-jq-VRD">
                                         <rect key="frame" x="0.0" y="40" width="100" height="20"/>
                                         <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="17"/>
                                         <nil key="textColor"/>
@@ -67,7 +67,7 @@
                             <constraint firstItem="IMC-QN-buI" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="0QH-ry-R3N"/>
                             <constraint firstItem="Jwo-H8-PWE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Y1n-nj-C6r"/>
                             <constraint firstItem="IMC-QN-buI" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="70" id="aIh-BI-cwI"/>
-                            <constraint firstItem="Jwo-H8-PWE" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="ezU-vA-Dxx"/>
+                            <constraint firstItem="Jwo-H8-PWE" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottom" id="ezU-vA-Dxx"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Jwo-H8-PWE" secondAttribute="trailing" id="vFF-VI-Qlk"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
